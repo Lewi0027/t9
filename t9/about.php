@@ -6,27 +6,52 @@
     <link rel="stylesheet" href="style.css">
     <title>t9 About Us</title>
 </head>
-<div class="container">
-    <div id="henryLewisBody" class="body">
-        <h3>Henry Lewis</h3>
-        <p><img id="henryLewisImg" src="content/hlewis_team_image.png" alt="HenryLewisPic"></p>
-        <p>Hello! I am a second bachelor's student at CSU majoring in Computer Science. I got my first bachelor's from CU in Geology. My goal with this class and my CS degree is to further my capabilities with Python and eventually work my way towards becoming a full-stack developer. My biggest aspiration outside of doing well in my classes is to work my way towards building a simple web browser-based game. Cookie Clicker was a game I enjoyed in the past and I would love to create something akin, but much simpler.</p>
+<body>
+    <div class="top-banner">
+    <h1>About us!</h1>
+    <?php include 'navbar.php' ?>
     </div>
-    <div id="teamMemberTwoBody" class="body">
-        <h3>Team Member Two</h3>
-        <p><img id="teamMemberTwoImg" src="content/default_img.jpg" alt="TeamMemberTwoPic"></p>
-        <p>Populate me.</p>
-    </div>
-    <div id="teamMemberThreeBody" class="body">
-        <h3>Team Member Three</h3>
-        <p><img id="teamMemberThreeImg" src="content/default_img.jpg" alt="TeamMemberThreePic"></p>
-        <p>Populate me.</p>
-    </div>
-    <div id="teamMemberFourBody" class="body">
-        <h3>Team Member Four</h3>
-        <p><img id="teamMemberFourImg" src="content/default_img.jpg" alt="TeamMemberFourPic"></p>
-        <p>Populate me.</p>
-    </div>
-</div>
-
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                <img id="henryLewisImg" src="content/hlewis_team_image.png" alt="HenryLewisPic">
+                <div class="container">
+                    <h1>Henry Lewis</h1>
+                    <p class="title"><b>Team Member</b></p>
+                    <p>Hello! I am a second bachelor's student at CSU majoring in Computer Science. I got my first bachelor's from CU in Geology. My goal with this class and my CS degree is to further my capabilities with Python and eventually work my way towards becoming a full-stack developer. My biggest aspiration outside of doing well in my classes is to work my way towards building a simple web browser-based game. Cookie Clicker was a game I enjoyed in the past and I would love to create something akin, but much simpler.</p>
+                    <p>Add email if you want</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                <img src="./content/RossPavey_Headshot.jpg" alt="Ross Pavey" style="width: 100%;">
+                <div class="container">
+                    <h1>Ross Pavey</h1>
+                    <p class="title"><b>Team Member</b></p>
+                    <p>My name is Ross Pavey. I'm currently a Senior at Colorado State University studying Computer Science, while working part-time as a software engineering intern at HP. I love spending time outdoors, making music, and playing video games!</p>
+                    <p>Ross.Pavey@colostate.edu</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                <img src="./something" alt="Student Name" style="width: 100%;">
+                <div class="container">
+                    <h1>Student Name</h1>
+                    <p class="title"><b>Team Member</b></p>
+                    <p>Short bio</p>
+                    <p>email</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                <img src="./something" alt="Student Name" style="width: 100%;">
+                <div class="container">
+                    <h1>Student Name</h1>
+                    <p class="title"><b>Team Member</b></p>
+                    <p>Short bio</p>
+                    <p>email</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
