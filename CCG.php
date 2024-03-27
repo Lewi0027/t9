@@ -8,8 +8,9 @@
 </head>
 <body>
     <div class="top-banner">
-        <h1>This is where we generate colors</h1>
+        <img src="./content/ColorForgeLogo.png" alt="ColorForgeLogo" style="height: 100px; padding: 0;">
         <?php include 'navbar.php' ?>
     </div>
+    <h1>This is where we generate colors</h1>
 </body>
 </html>

@@ -1,34 +1,17 @@
 body {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px 1px 1px 1px black;
+    margin: auto;
     background-color: white;
-
-}
-
-#wrapper {
-    background-color: #0A1828;
-    color: white;
 }
 
 a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: #BCA15C;
+    font-size: 17px;
 }
 
 a:hover {
-    background-color: #957C3D;
-}
-
-a:visited {
-    color: #957C3D;
-}
-
-header {
-    background-color: #178582;
-    color:white;
+    font-weight: bold;
 }
 
 .top-banner {
@@ -61,7 +44,6 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
     background-color: white;
-    border: 3px solid black;
     height: 97.5%;
 }
 
