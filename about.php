@@ -9,8 +9,8 @@
 <body>
     <div class="top-banner">
         <h1>About us!</h1>
+        <?php include 'navbar.php' ?>
     </div>
-    <?php include 'navbar.php' ?>
     <div class="row">
         <div class="column">
             <div class="card">
