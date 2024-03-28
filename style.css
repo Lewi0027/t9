@@ -10,12 +10,19 @@ a {
     font-size: 17px;
 }
 
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #002349;
+    color: white;
+}
+
 a:hover {
     font-weight: bold;
 }
 
 .top-banner {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     background-color: #002349;
     color: white;
@@ -79,8 +86,12 @@ a:hover {
 #colorswath{
     background: linear-gradient(135deg, #ff9999, #66ccff);
     padding: 20px;
+    height: 100%;
+}
+.fullpage {
     height: 100vh;
 }
+
 
 .herosymbol {
     height: 15vw;
