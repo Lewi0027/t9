@@ -1,11 +1,11 @@
 function getCurrentDateTime() {
     var currentDate = new Date();
-
-    var minutes = addZero(currentDate.getMinutes());
-    var seconds = addZero(currentDate.getSeconds());
     
     var formattedDate = currentDate.getMonth() + 1 + '/' + currentDate.getDate() + '/' + currentDate.getFullYear();
+    
     var hours = currentDate.getHours()
+    var minutes = addZero(currentDate.getMinutes());
+    var seconds = addZero(currentDate.getSeconds());
 
     var formattedTime = hours + ':' + minutes + ':' + seconds;
 
