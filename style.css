@@ -10,12 +10,19 @@ a {
     font-size: 17px;
 }
 
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #002349;
+    color: white;
+}
+
 a:hover {
     font-weight: bold;
 }
 
 .top-banner {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     background-color: #002349;
     color: white;
@@ -55,4 +62,39 @@ a:hover {
     content: "";
     clear: both;
     display: table;
+}
+
+#smalltext {
+    font-size: 12px;
+    font-style: italic;
+    text-shadow: none;
+}
+
+#indexpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    margin-top: 20px;
+    font: Times;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #777777;
+}
+
+#colorswath{
+    background: linear-gradient(135deg, #ff9999, #66ccff);
+    padding: 20px;
+    height: 100%;
+}
+.fullpage {
+    height: 100vh;
+}
+
+
+.herosymbol {
+    height: 15vw;
+    min-height: 80px;
+    padding: 10px;
 }
