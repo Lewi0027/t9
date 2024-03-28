@@ -83,10 +83,6 @@ a:hover {
     height: 100vh;
 }
 
-#nobreak {
-    white-space: pre;
-}
-
 .herosymbol {
     height: 15vw;
     min-height: 80px;
