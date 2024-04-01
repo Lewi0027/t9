@@ -98,3 +98,13 @@ a:hover {
     min-height: 80px;
     padding: 10px;
 }
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
