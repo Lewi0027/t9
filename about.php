@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>t9 About Us</title>
+    <script src="QueryTime.js"></script>
 </head>
-<body>
+<body class="pageheight" id="aboutheight">
     <div class="top-banner">
         <img src="./content/ColorForgeLogo.png" alt="ColorForgeLogo" style="height: 100px; padding: 0;">
         <?php include 'navbar.php' ?>
@@ -60,5 +61,8 @@
             </div>
         </div>
     </div>
+    <footer>
+        <p id="access-date">Accessed date displays here.</p>
+    </footer>
 </body>
 </html>
