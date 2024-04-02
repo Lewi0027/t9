@@ -24,6 +24,12 @@
             <p id="errorMessage1" style="color: red;"></p>
             <p id="errorMessage2" style="color: red;"></p>
         </form>
+        <?php
+            $input1 = isset($_POST['input1']) ? $_POST['input1'] : '0';
+            $input2 = isset($_POST['input2']) ? $_POST['input2'] : '0';
+
+            echo "<p>$input1 and $input2</p>"; 
+        ?>
     </div>
 </body>
 </html>
