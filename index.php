@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>t9 Homepage</title>
     <script src="QueryTime.js"></script>
+    <script src="DynamicHeight.js"></script>
 </head>
 <body class="pageheight" id="indexheight">
     <div class="top-banner">
