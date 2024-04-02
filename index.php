@@ -7,7 +7,7 @@
     <title>t9 Homepage</title>
     <script src="QueryTime.js"></script>
 </head>
-<body class="fullpage">
+<body class="pageheight" id="indexheight">
     <div class="top-banner">
         <img src="./content/ColorForgeLogo.png" alt="ColorForgeLogo" style="height: 100px; padding: 0;">
         <?php include 'navbar.php' ?>

@@ -22,7 +22,7 @@ a:hover {
 }
 
 .top-banner {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     background-color: #002349;
     color: white;
@@ -37,7 +37,8 @@ a:hover {
 
 .column {
     flex: 1;
-    max-width: 25%;
+    /*max-width: 25%;*/
+    max-width: 400px;
     min-width: 250px;
     margin: 10px;
     padding: 10px;
@@ -88,10 +89,17 @@ a:hover {
     padding: 20px;
     height: 100%;
 }
-.fullpage {
-    height: 100vh;
+
+.pageheight, #indexheight{
+    height: calc(100vh - 334px);
+    min-height: 280px;
 }
 
+.pageheight, #aboutheight{
+    height: calc(100vh - 334px);
+    min-height: 1000px;
+    min-width: 1200px;
+}
 
 .herosymbol {
     height: 15vw;
