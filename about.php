@@ -39,12 +39,12 @@
             </div>
             <div class="column">
                 <div class="card">
-                    <img id= "teamMemberThreeImg" src="./something" alt="Student Name" style="width: 100%;">
+                    <img id= "sagarKothariImg" src="./content/skothari_Image.png" alt="SagarKothariPic" style="width: 100%;">
                     <div class="container">
                         <h1>Student Name</h1>
                         <p class="title"><b>Team Member</b></p>
-                        <p>Short bio</p>
-                        <p>email</p>
+                        <p>I'm Sagar Kothari and I'm a sophomore studying Computer Science at CSU. I am expecting to graduate in December 2024 and I am currently deciding if I want to continue my studies for a master's degree after completing my bachelor's.</p>
+                        <p>Sagar.Kothari@colostate.edu</p>
                     </div>
                 </div>
             </div>
