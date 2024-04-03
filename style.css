@@ -107,12 +107,16 @@ a:hover {
     padding: 10px;
 }
 
-label {
-    display: block;
-    margin-top: 10px;
+table, th, td {
+    border: 1px solid black;
 }
 
-input {
-    display: block;
-    margin-bottom: 10px;
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    margin: 4px auto;
+    cursor: pointer;
 }

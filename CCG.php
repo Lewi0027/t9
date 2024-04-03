@@ -14,22 +14,49 @@
     </div>
     <div id="colorswath">
         <h1>This is where we generate colors</h1>
-        <form id="inputForm" method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
-            <label for="input1">Rows, Columns, Number:</label>
-            <input type="text" id="input1" name="input1">
-            <label for="input2">Number of colors:</label>
-            <input type="text" id="input2" name="input2" >
-            <input type="submit">
-
-            <p id="errorMessage1" style="color: red;"></p>
-            <p id="errorMessage2" style="color: red;"></p>
-        </form>
+            <form id="inputForm" method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
+                <p id="errorMessage1" style="color: red;"></p>
+                <input type="text" id="input1" name="input1" placeholder="1-26">
+                <br>
+                <p id="errorMessage2" style="color: red;"></p>
+                <input type="text" id="input2" name="input2" placeholder="1-10">
+                <br>
+                <input type="submit">
+            </form>
         <?php
             $input1 = isset($_POST['input1']) ? $_POST['input1'] : '0';
             $input2 = isset($_POST['input2']) ? $_POST['input2'] : '0';
 
             echo "<p>$input1 and $input2</p>"; 
         ?>
+
+        <table id="table1" style="width: 80%; margin:10px auto">
+            <colgroup>
+                <col style="width: 20%;">
+                <col style="width: 80%;">
+            </colgroup>
+            <?php
+                for($i = 0; $i < $input1; $i++){
+                    echo "<tr>
+                            <td>-</td>
+                            <td>-</td>
+                          </tr>
+                    ";
+                }
+            ?>
+        </table>
+
+        <table id="table2" style="width: 80%; margin:10px auto">
+            <?php
+                for($row = 0; $row < $input2; $row++){
+                    echo "<tr>";
+                    for($col = 0; $col < $input2; $col++){
+                        echo "<td>-</td>";
+                    }
+                    echo "</tr>";
+                }
+            ?>
+        </table>
     </div>
 </body>
 </html>

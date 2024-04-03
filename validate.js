@@ -2,8 +2,8 @@ let inputForm = document.querySelector("#inputForm");
 inputForm.addEventListener("submit", checkForm);
 
 function checkForm(event) {
-    inputForm.input1.style.backgroundColor = "LightGreen";
-    inputForm.input2.style.backgroundColor = "LightGreen";
+    inputForm.input1.style.backgroundColor = "#3CBC8D";
+    inputForm.input2.style.backgroundColor = "#3CBC8D";
 
     let value1 = inputForm.input1.value;
     let value2 = inputForm.input2.value;
