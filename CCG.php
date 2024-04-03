@@ -15,13 +15,13 @@
     <div id="colorswath">
         <h1>This is where we generate colors</h1>
             <form id="inputForm" method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
-                <label for="input1">Choose a number between 1-10:</label>
+                <label for="input1">Choose a number between 1-26:</label>
                 <p id="errorMessage1" style="color: red;"></p>
-                <input type="text" id="input1" name="input1" placeholder="1-10">
+                <input type="text" id="input1" name="input1" placeholder="1-26">
                 <br><br>
-                <label for="input2">Choose a number between 1-26:</label>
+                <label for="input2">Choose a number between 1-10:</label>
                 <p id="errorMessage2" style="color: red;"></p>
-                <input type="text" id="input2" name="input2" placeholder="1-26">
+                <input type="text" id="input2" name="input2" placeholder="1-10">
                 <br>
                 <input type="submit">
             </form>
