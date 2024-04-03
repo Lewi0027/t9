@@ -15,9 +15,11 @@
     <div id="colorswath">
         <h1>This is where we generate colors</h1>
             <form id="inputForm" method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
+                <label for="input1">Choose a number between 1-26:</label>
                 <p id="errorMessage1" style="color: red;"></p>
                 <input type="text" id="input1" name="input1" placeholder="1-26">
-                <br>
+                <br><br>
+                <label for="input2">Choose a number between 1-10:</label>
                 <p id="errorMessage2" style="color: red;"></p>
                 <input type="text" id="input2" name="input2" placeholder="1-10">
                 <br>
@@ -38,7 +40,21 @@
             <?php
                 for($i = 0; $i < $input1; $i++){
                     echo "<tr>
-                            <td>-</td>
+                            <td>
+                                <select class = 'colorDropdown' name = 'dropdown_$i' id='dropdown_$i'>
+                                    <option value='null'>---</option>
+                                    <option value='1'>Red</option>
+                                    <option value='2'>Orange</option>
+                                    <option value='3'>Yellow</option>
+                                    <option value='4'>Green</option>
+                                    <option value='5'>Blue</option>
+                                    <option value='6'>Purple</option>
+                                    <option value='7'>Gray</option>
+                                    <option value='8'>Brown</option>
+                                    <option value='9'>Black</option>
+                                    <option value='10'>Teal</option>
+                                </select>
+                            </td>
                             <td>-</td>
                           </tr>
                     ";
