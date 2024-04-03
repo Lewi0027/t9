@@ -42,7 +42,7 @@ dropdowns.forEach(function(dropdown, index) {
 
         colorSelected[index] = parseInt(selectedColor);
 
-        dropdowns.forEach(function(dropdownCheck, checkIndex) {
+        dropdowns.forEach(function(dropdownCheck) {
             let options = dropdownCheck.options;
             for (let i = 0; i < options.length; i++) {
                 options[i].disabled = colorSelected.includes(i);
