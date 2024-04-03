@@ -39,12 +39,11 @@
             <?php
                 $colors = array('Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Gray', 'Brown', 'Black', 'Teal');
                 for($i = 0; $i < $input2; $i++){
-                    $randomColor = $colors[array_rand($colors)];
                     echo "<tr>
                             <td>
                                 <select class = 'colorDropdown' name = 'dropdown_$i' id='dropdown_$i'>";
                                     foreach($colors as $index => $color) {
-                                        $selected = ($color == $colors[i]) ? "selected" : "";
+                                        $selected = ($color == $colors[$i]) ? "selected" : "";
                                         echo "<option value='".($index)."' $selected>$color</option>";
                                     };
                     echo        "</select>
