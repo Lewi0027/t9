@@ -37,7 +37,6 @@ a:hover {
 
 .column {
     flex: 1;
-    /*max-width: 25%;*/
     max-width: 400px;
     min-width: 250px;
     margin: 10px;
