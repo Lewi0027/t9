@@ -119,3 +119,21 @@ input[type=button], input[type=submit], input[type=reset] {
     margin: 4px auto;
     cursor: pointer;
 }
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    margin: 4px auto;
+    cursor: pointer;
+}
+
+#paperview {
+    width: 850px;
+    height: 1000px;
+    box-shadow: 3px 3px;
+    background-color: white;
+    margin: auto;
+}

@@ -66,6 +66,7 @@
                 }
             ?>
         </table>
+        <a href="printview.php?input1=<?php echo $input1; ?>&input2=<?php echo $input2; ?>" target="_blank"><button>Print Preview</button></a>
     </div>
 </body>
 </html>
