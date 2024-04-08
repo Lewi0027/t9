@@ -45,13 +45,15 @@ a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
     border: 3px solid black;
+    /* background: linear-gradient(135deg, #66ccff, #ff9999); */
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
-    background-color: white;
+    background: white;
     height: 97.5%;
+    border-style: outset;
 }
 
 .container {
@@ -76,15 +78,28 @@ a:hover {
     align-items: center;
 }
 
-#text {
+.text {
     margin-top: 20px;
     font: Times;
     font-size: 20px;
     text-shadow: 1px 1px 1px #777777;
 }
 
+#bigText{
+    margin-top: 20px;
+    font: Times;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #777777;
+}
+
 #colorswath{
     background: linear-gradient(135deg, #ff9999, #66ccff);
+    padding: 20px;
+    height: 100%;
+}
+
+#whitepage{
+    background: white;
     padding: 20px;
     height: 100%;
 }
@@ -110,7 +125,7 @@ table, th, td {
     border: 1px solid black;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+#submitButton {
     background-color: #04AA6D;
     border: none;
     color: white;
@@ -118,4 +133,42 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px auto;
     cursor: pointer;
+}
+
+#ntButton {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    margin: 4px auto;
+    cursor: pointer;
+}
+
+#paperview {
+    width: 850px;
+    height: 1000px;
+    box-shadow: 3px 3px;
+    background-color: white;
+    margin: auto;
+}
+
+#table2 {
+    max-width: 60vw;
+}
+
+#table2button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+#table2 input[type="submit"] {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background-color: white;
 }
